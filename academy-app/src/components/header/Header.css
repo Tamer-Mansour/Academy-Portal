@@ -1,0 +1,81 @@
+.fullNav {
+  border: solid #d7d7d7 1px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+}
+.headerContainer {
+  height: 50px;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.liftBar {
+  flex: 6;
+  display: flex;
+}
+.rightBar {
+  flex: 6;
+}
+
+.academy-logo {
+  width: 100px;
+  margin-left: 3%;
+  margin-right: 10px;
+}
+
+.searchBox {
+  border: solid 1px;
+  border-radius: 4px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border-color: #d7d7d7;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+}
+
+.searchInput {
+  border: none;
+  width: 90%;
+}
+.searchInput:focus {
+  outline: none;
+}
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 5px;
+  color: #8c8484;
+}
+.headerIcons {
+  display: flex;
+}
+.iconItem {
+  margin-right: 17.5px;
+  cursor: pointer;
+  position: relative;
+  color: #d7d7d7;
+}
+.topbarIconBadge {
+  width: 17px;
+  height: 17px;
+  background-color: #bd1924;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.the-button{
+    margin-top: -7px;
+    margin-left: -19px;
+}
+.the-menu{
+    right: 0;
+}

@@ -1,0 +1,17 @@
+.foot {
+  bottom: 0;
+}
+.footerText{
+    margin-top: 24px;
+    font-size: 12px;
+}
+.footer {
+  height: 60px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e6e6e8;
+  color: white;
+  text-align: center;
+}
