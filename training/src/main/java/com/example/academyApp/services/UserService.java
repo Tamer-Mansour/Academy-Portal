@@ -4,12 +4,14 @@ import java.util.List;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.example.academyApp.models.User;
 import com.example.academyApp.repositories.RoleRepository;
 import com.example.academyApp.repositories.UserRepository;
 
 @Service
+@CrossOrigin(origins = "http://localhost:3000")
 public class UserService {
 	final UserRepository userRepo;
 	final RoleRepository roleRepo;
