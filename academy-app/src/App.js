@@ -1,17 +1,16 @@
 import "./App.css";
-// import Footer from "./components/footer/Footer";
-// import Header from "./components/header/Header";
-// import Signin from "./components/signin/Signin";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Signin from "./components/signin/Signin";
 import StudentList from "./student/StudentList";
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
+      <Header/>
       <Signin/>
-      <Footer /> */}
-      {/* <Student /> */}
+      <Footer /> 
       <StudentList/>
     </div>
   );
