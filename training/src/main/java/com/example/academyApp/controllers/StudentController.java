@@ -9,6 +9,7 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -29,6 +30,7 @@ import com.example.academyApp.services.StudentService;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:3000")
 public class StudentController {
 	private StudentService studentService;
 	private InterviewService interviewService;
@@ -61,6 +63,15 @@ public class StudentController {
 
 	}
 
+	/*
+	 * Get method to return All students details as JSON
+	 */
+	
+	@GetMapping("/students")
+	public List<Student> getAllStudents(){
+		return studentService.findAll();
+	}
+	
 	@RequestMapping("/student/{id}/edit")
 	@ResponseBody
 	public Student edit(@PathVariable("id") Long id) {
