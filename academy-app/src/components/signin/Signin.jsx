@@ -86,7 +86,6 @@ function Signin() {
                     <input
                       type="email"
                       className="form-control"
-                      type="text"
                       name="email"
                       placeholder="username"
                       value={formValues.email}
