@@ -3,10 +3,11 @@ import { MdAssignmentInd, MdFaceUnlock, MdLanguage, MdMessage, MdQuestionAnswer,
 import { AiFillDashboard, AiFillDatabase, AiFillHeart, AiFillPushpin } from "react-icons/ai";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import SidebarMenu from "./SidebarMenu";
+
 import "./style.css"
 import Image_3 from "../../assets/Image_3.png";
 import CircleIcon from '@mui/icons-material/Circle';
+import SidebarMenu from "./SideBarMenu";
 
 const routes = [
     {
