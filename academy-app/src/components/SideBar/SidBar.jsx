@@ -95,7 +95,7 @@ const routes = [
     {
         path: "/Employees",
         name: "Employees",
-        icon: <AiFillHeart  style={style}/>,
+        icon: <AiFillHeart />,
         subRoutes: [
             {
                 path: "Employees/Personal",
