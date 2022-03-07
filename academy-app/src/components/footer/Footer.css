@@ -1,6 +1,3 @@
-.foot {
-  bottom: 0;
-}
 .footerText{
     margin-top: 24px;
     font-size: 12px;
@@ -14,4 +11,68 @@
   background-color: #e6e6e8;
   color: white;
   text-align: center;
+}
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+  .footerText{
+    margin-top: 24px;
+    padding-top: 22px;
+    font-size: 12px;
+}
+  .footer {
+    height: 60px;
+    position: static;
+
+    width: 100%;
+    background-color: #e6e6e8;
+    color: white;
+    text-align: center;
+  }
+}
+@media only screen and (device-width: 360px) and (device-height: 740px) {
+  .footerText{
+    margin-top: 24px;
+    padding-top: 22px;
+    font-size: 12px;
+}
+  .footer {
+    height: 60px;
+    position: static;
+
+    width: 100%;
+    background-color: #e6e6e8;
+    color: white;
+    text-align: center;
+  }
+}
+@media only screen and (device-width: 540px) and (device-height: 720px) {
+  .footerText{
+    margin-top: 24px;
+    padding-top: 22px;
+    font-size: 12px;
+}
+  .footer {
+    height: 60px;
+    position: static;
+
+    width: 100%;
+    background-color: #e6e6e8;
+    color: white;
+    text-align: center;
+  }
+}
+@media only screen and (device-width: 280px) and (device-height: 653px) {
+  .footerText{
+    margin-top: 24px;
+    padding-top: 22px;
+    font-size: 12px;
+}
+  .footer {
+    height: 60px;
+    position: static;
+
+    width: 100%;
+    background-color: #e6e6e8;
+    color: white;
+    text-align: center;
+  }
 }
