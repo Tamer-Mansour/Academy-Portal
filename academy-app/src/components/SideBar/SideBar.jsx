@@ -256,14 +256,13 @@ const SideBar = ({ children }) => {
                                     initial="hidden"
                                     animate="show"
                                     exit="hidden"
-                                    animate={{
-                                    }}
+                                    
                                 >
 
                                 </motion.div>
                             )}
 
-                            <CircleIcon style={{ color: "green", marginTop: "105px",borderRadius:"50px" }} />
+                            <CircleIcon style={{ color: "green", marginTop: "105px",borderRadius:"50px",  width: isOpen ? "15px" : "15px", }} />
 
 
                         </AnimatePresence>

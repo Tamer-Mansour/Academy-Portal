@@ -133,7 +133,7 @@ function Signin() {
                           <input
                             className="form-check-input"
                             type="checkbox"
-                            value=""
+                           
                             id="flexCheckDefault"
                             value={formValues.password}
                             onChange={handleChange}
