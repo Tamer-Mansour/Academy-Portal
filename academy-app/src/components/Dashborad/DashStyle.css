@@ -1,0 +1,499 @@
+.tablestyle1 {
+  width: 654px;
+  height: 294px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 40px;
+}
+.tablestyle12 {
+  width: 654px;
+  height: 294px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: -300px;
+}
+
+.rectangle-50 {
+  width: 654px;
+  height: 357px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-4 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-7 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-10 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.paragraph-41 {
+  width: 124px;
+  height: 19px;
+  color: #383838;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: left;
+}
+.label-6 {
+  width: 107px;
+  height: 20px;
+  color: #383838;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+}
+.rectangle-5 {
+  width: 317px;
+  height: 82px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  margin-left: 680px;
+  margin-top: -340px;
+}
+.label-36 {
+  width: 133px;
+  height: 20px;
+  color: #383838;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+}
+.rectangle-27 {
+  width: 316px;
+  height: 320px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  margin-left: 680px;
+  margin-top: 15px;
+}
+.label-9 {
+  width: 180px;
+  height: 16px;
+  color: #383838;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+}
+.rectangle-8 {
+  width: 317px;
+  height: 210px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  margin-left: 680px;
+  margin-top: 20px;
+}
+
+.rectangle-45 {
+  width: 15px;
+  height: 15px;
+  padding: 8px 8px 8px 8px;
+  background: #bd192463;
+  border-color: #bd192400;
+  border-width: 0.5px;
+  border-radius: 2px 2px 2px 2px;
+  border-radius: 4px;
+}
+.chart-10 {
+  width: 180px;
+  height: 110px;
+}
+
+.rectangle-44 {
+  width: 15px;
+  height: 15px;
+  padding: 8px 8px 8px 8px;
+  background: #5595d67a;
+  border-color: #5595d600;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.blur-on-icon-1 {
+  width: 24px;
+  height: 24px;
+  background: #abacb000;
+  margin-left: 160px;
+}
+.blur-on-icon-2 {
+  width: 24px;
+  height: 24px;
+  background: #abacb000;
+  margin-left: 130px;
+}
+.blur-on-icon-3 {
+  width: 24px;
+  height: 24px;
+  background: #abacb000;
+  margin-left: 260px;
+  margin-top: -20px;
+}
+
+.label-14 {
+  width: 51px;
+  height: 17px;
+  color: #5a7bb0;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+}
+
+.rectangle-13 {
+  width: 2px;
+  height: 35px;
+  padding: 4px 4px 4px 4px;
+  background: #5a7bb0;
+  border-color: #5a7bb0;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: -8px;
+}
+.label-13 {
+  width: 165px;
+  height: 20px;
+  color: #383838;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+}
+.label-12 {
+  width: 86px;
+  height: 17px;
+  color: #8c8484;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.label-1 {
+  width: 61px;
+  height: 17px;
+  color: #691489;
+  font-family: "Dosis";
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+}
+.img1 {
+  width: 116px;
+  height: 120px;
+  margin-left: 90px;
+}
+.rectangle-37 {
+  width: 15px;
+  height: 15px;
+  padding: 8px 8px 8px 8px;
+  background: #aaca3844;
+  border-color: #aaca3800;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-38 {
+  width: 15px;
+  height: 15px;
+  padding: 8px 8px 8px 8px;
+  background: #d68c315d;
+  border-color: #d68c3100;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.label-1-1 {
+  width: 106px;
+  height: 28px;
+  font-size: 20px;
+  text-align: left;
+}
+.rectangle-6 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.rectangle-49 {
+  width: 654px;
+  height: 320px;
+
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  padding: 13px 0px 2px 52px;
+}
+.rectangle-3 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-6 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-9 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-4 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-7 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-10 {
+  width: 600px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.tab1 {
+  width: 900px;
+  height: 60px;
+  padding: 15px;
+}
+
+.rectangle-3 {
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-6 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-9 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.combo-box-4 {
+  width: 150px;
+  height: 80px;
+  color: #190e0e;
+  border-color: #000000;
+  border-radius: 4px 4px 4px 4px;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+}
+.heading-10 {
+  color: #909090;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.heading-9 {
+  width: 9px;
+  height: 20px;
+  color: #691489;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
+.heading-49 {
+  width: 74px;
+  height: 20px;
+  color: #909090;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.heading-51 {
+  width: 26px;
+  height: 20px;
+  color: #909090;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.label-21 {
+  width: 116px;
+  height: 20px;
+  color: #383838;
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  margin-top: -40px;
+}
+.rectangle-545 {
+  width: 654px;
+  height: 320px;
+  padding: 13px 0px 2px 52px;
+  box-shadow: 1px 1px 5px rgba(189, 189, 189, 0.5);
+  background: #ffffff;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: -280px;
+}
+.rectangle-4 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-7 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
+.rectangle-10 {
+  width: 630px;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 4px 5px rgba(214, 214, 214, 0.2);
+  background: #fafafa;
+  border-color: #d7d7d7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+}
