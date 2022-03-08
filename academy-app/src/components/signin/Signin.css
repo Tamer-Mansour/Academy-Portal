@@ -1,13 +1,17 @@
 .allSigninPage {
   margin-top: 160px;
 }
-.axsos-academy-logo-01-png {
+.sizing {
+  padding-top: 3rem !important;
+  padding-bottom: 1rem !important;
+  margin-top: 3rem !important;
+}
+.axsos {
   width: 208px;
   height: 78px;
   margin-top: 100px;
 }
-
-.language-icon-1 {
+.language-1 {
   margin-right: 120px;
 }
 .paragraph-52 {
@@ -29,7 +33,7 @@
   background-color: #e6e6e8;
 }
 
-.line11 {
+.Vline-signin {
   box-shadow: 0px 0px 0px rgb(214, 214, 214);
   border-width: 1px;
   border-right: 5px solid #e6e6e6;
@@ -49,6 +53,315 @@
 .labMar {
   margin-left: 17px;
 }
-.errors{
+.errors {
   color: red;
+}
+/* 12 PRO */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 5px solid #ffffff;
+  }
+  .labMar {
+    margin-left: 20px;
+  }
+}
+/* XR */
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 5px solid #ffffff;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .labMar {
+    margin-left: 20px;
+  }
+}
+/* SE */
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 5px solid #ffffff;
+  }
+
+  .labMar {
+    margin-left: 20px;
+  }
+}
+/* Pixel 5 */
+@media only screen and (device-width: 393px) and (device-height: 851px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 5px solid #ffffff;
+  }
+  .labMar {
+    margin-left: 20px;
+  }
+}
+/* S8+ */
+@media only screen and (device-width: 360px) and (device-height: 740px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px #ffffff;
+    border-width: 1px;
+    border-right: 0px solid #ffffff;
+  }
+
+  .labMar {
+    margin-left: 20px;
+  }
+}
+/* S20 ultra */
+@media only screen and (device-width: 412px) and (device-height: 915px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 1px solid #ffffff;
+  }
+
+  .labMar {
+    margin-left: 20px;
+  }
+}
+/* Surface Due */
+@media only screen and (device-width: 540px) and (device-height: 720px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 1px solid #ffffff;
+  }
+
+  .labMar {
+    margin-left: 20px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+}
+/* Galaxy Fold */
+@media only screen and (device-width: 280px) and (device-height: 653px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 1px solid #ffffff;
+  }
+
+  .labMar {
+    margin-left: 20px;
+  }
+  .paragraph-52 {
+    color: #383838;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 4.3;
+  }
+}
+/* Galaxy A51, A71 */
+@media only screen and (device-width: 412px) and (device-height: 914px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 34px;
+  }
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 1px solid #ffffff;
+  }
+
+  .labMar {
+    margin-left: 20px;
+  }
+  .paragraph-52 {
+    color: #383838;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 4.3;
+  }
+}
+/* Nest Hub */
+@media only screen and (device-width: 1024px) and (device-height: 600px) {
+  .allSigninPage {
+    margin-top: 0px;
+  }
+  .language-1 {
+    margin-right: 5px;
+  }
+  .axsos {
+    width: 208px;
+    height: 78px;
+    margin-top: 140px;
+  }
+  .sizing {
+    padding-top: 2rem !important;
+    padding-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .Vline-signin {
+    box-shadow: 0px 0px 0px rgb(214, 214, 214);
+    border-width: 1px;
+    border-right: 5px solid #e6e6e6;
+  }
+  .labMar {
+    margin-left: 20px;
+  }
+  .paragraph-52 {
+    color: #383838;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 4.3;
+  }
+  .col-sm-10 {
+    padding-right: -1px;
+    padding-left: 0px;
+  }
+}
+/* nest hub max */
+@media only screen and (device-width: 1280px) and (device-height: 800px) {
+  .sizing {
+    padding-top: 0rem !important;
+    padding-bottom: 1rem !important;
+    margin-top: 3rem !important;
+  }
 }

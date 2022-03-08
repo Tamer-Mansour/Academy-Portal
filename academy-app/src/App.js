@@ -9,7 +9,6 @@ import SideBar from "./components/SideBar/SideBar";
 import { BrowserRouter as Router, Route,Routes  } from "react-router-dom";
 import  Dashboard  from "./components/Dashborad/Dashborad";
 
-
 function App() {
     return ( 
         <div className="App">
@@ -26,7 +25,6 @@ function App() {
       </Router>
       
     
-     
      <div  style={{display:"inline"}}>
      <Header/>
      <Dashboard/>

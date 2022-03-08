@@ -42,13 +42,13 @@ function ResetPassword() {
         <div className="navbar-text"></div>
       </nav>
       {/* logo part */}
-      <div className="allPage ">
-        <div className="container pt-5 mt-5 mb-1 pb-3">
-          <div className="d-flex">
-            <div className="col-md-6 text-center line11 ">
+      <div className="allMyPage ">
+        <div className="container sizing">
+          <div className="row">
+            <div className="col-md-6 text-center V-line ">
               <img
                 src={logo}
-                className="axsos-academy-logo-01-png"
+                className="the-axsos"
                 alt="Axsos-logo"
               />
               <p className="AxsosParagraph">AXSOS Academy Portal Manager</p>

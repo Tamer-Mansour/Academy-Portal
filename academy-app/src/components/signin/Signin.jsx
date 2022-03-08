@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Signin.css";
 import logo from "../../assets/AXSOSAcademy.png";
 import lang from "../../assets/Lang.png";
+import Footer from "../footer/Footer";
 
 function Signin() {
   const initialValues = { username: "", email: "", password: "" };
@@ -47,24 +48,22 @@ function Signin() {
     return errors;
   };
 
-
   return (
     <>
-
       {/* navbar */}
       <nav className="navbar navbar-expand-lg navbar-light  py-3 py-lg-4 d-flex justify-content-end bacCol">
         <span> English (USA) </span> &nbsp; &nbsp;
-        <img src={lang} alt="Language_Icon" className="language-icon-1" />
+        <img src={lang} alt="Language_Icon" className="language-1" />
         <div className="navbar-text"></div>
       </nav>
       {/* logo part */}
       <div className="allSigninPage">
-        <div className="container pt-5 mt-5 mb-1 pb-3">
+        <div className="container sizing">
           <div className="row">
-            <div className="col-md-6 text-center line11 ">
+            <div className="col-md-6 text-center Vline-signin ">
               <img
                 src={logo}
-                className="axsos-academy-logo-01-png"
+                className="axsos"
                 alt="Axsos-logo"
               />
               <p className="paragraph-52 ">AXSOS Academy Portal Manager</p>
@@ -77,7 +76,7 @@ function Signin() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 quam velit, vulputate eu pharetra nec, mattis ac neque.
               </p>
-              <form onSubmit={handleSubmit}  >
+              <form onSubmit={handleSubmit}>
                 <div className="form-group row">
                   <label className="col-sm-2 col-form-label labels">
                     Username
@@ -91,10 +90,8 @@ function Signin() {
                       value={formValues.email}
                       onChange={handleChange}
                       required
-
                     />
                     <p className="errors">{formErrors.email}</p>
-
                   </div>
                 </div>
                 <div className="form-group row">
@@ -112,9 +109,7 @@ function Signin() {
                       required
                     />
                     <p className="errors">{formErrors.password}</p>
-
                   </div>
-
                 </div>
                 <div className="form-group row">
                   <label className="col-sm-2"></label>
@@ -124,31 +119,31 @@ function Signin() {
                     </button>
                   </div>
                 </div>
-                <div className="form-group row">
+                <div className="form-group row d-flex">
                   <label className="col-sm-2"></label>
-                  <div className="col-sm-10">
-                    <div className="row">
-                      <div className="col-sm-6">
+                  <div className="col-sm-10 ">
+                    <div className="row d-flex">
+                      <div className="col-sm-5 d-flex ">
                         <div className="form-check">
                           <input
                             className="form-check-input"
                             type="checkbox"
-                           
                             id="flexCheckDefault"
                             value={formValues.password}
                             onChange={handleChange}
                           />
-                          <label
-                            className="form-check-label"
-                            for="flexCheckDefault"
-                          >
+                          <label className="form-check-label">
                             Remember me
                           </label>
                         </div>
                       </div>
-                      <div className="col-sm-6 justify-content-end">
+                      <div className="col-sm-6 inMed">
                         <label>
-                          <a className="labMar" href="/forget" style={{ color: "#691489" }}>
+                          <a
+                            className="labMar"
+                            href="/forget"
+                            style={{ color: "#691489" }}
+                          >
                             Forgot my Password?
                           </a>
                         </label>
@@ -156,12 +151,12 @@ function Signin() {
                     </div>
                   </div>
                 </div>
-                <div className="form-check"></div>
               </form>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

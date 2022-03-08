@@ -43,35 +43,35 @@ function ChangePassword() {
       {/* navbar */}
       <nav className="navbar navbar-expand-lg navbar-light  py-3 py-lg-4 d-flex justify-content-end bacCol">
         <span> English (USA) </span> &nbsp; &nbsp;
-        <img src={lang} alt="Language_Icon" className="language-icon-1" />
+        <img src={lang} alt="Language_Icon" className="language-icon" />
         <div className="navbar-text"></div>
       </nav>
       {/* logo part */}
-      <div className="allSigninPage">
+      <div className="allPage">
         <div className="container">
-          <div className="d-flex">
-            <div className="col-md-6 text-center line11 ">
+          <div className="row">
+            <div className="col-md-6 text-center Vline ">
               <img
                 src={logo}
-                className="axsos-academy-logo-01-png"
+                className="the-axsos-logo"
                 alt="Axsos-logo"
               />
-              <p className="paragraph-52 ">AXSOS Academy Portal Manager</p>
+              <p className="AxsosParagraph ">AXSOS Academy Portal Manager</p>
             </div>
             {/* virtical line */}
             <p className="col-md-1"></p>
             {/* form part */}
-            <div className="col-md-6 mt-3 " style={{ padding: "0" }}>
+            <div className="col-md-5 mt-3 " style={{ padding: "0" }}>
               <p className="paragraph-21 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 quam velit, vulputate eu pharetra nec, mattis ac neque.
               </p>
               <form onSubmit={handleSubmit}>
                 <div className="form-group row">
-                  <label className="col-sm-4 col-form-label labels">
+                  <label className="col-sm-5 col-form-label labels">
                     Password
                   </label>
-                  <div className="col-sm-8">
+                  <div className="col-sm-7">
                     <input
                       type="password"
                       className="form-control"
@@ -85,10 +85,10 @@ function ChangePassword() {
                   </div>
                 </div>
                 <div className="form-group row">
-                  <label className="col-sm-4 col-form-label labels ">
+                  <label className="col-sm-5 col-form-label labels ">
                     Confirm New Password{" "}
                   </label>
-                  <div className="col-sm-8">
+                  <div className="col-sm-7">
                     <input
                       type="password"
                       name="confirmPassword"
@@ -102,8 +102,8 @@ function ChangePassword() {
                   </div>
                 </div>
                 <div className="form-group row">
-                  <label className="col-sm-4"></label>
-                  <div className="col-sm-8">
+                  <label className="col-sm-5"></label>
+                  <div className="col-sm-7">
                     <button type="submit" className="btn btn-primary btn-block">
                       CHANGE PASSWORD
                     </button>
